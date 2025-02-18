@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjustment Receipt</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Adjustment Receipt</h2>
+        <p><strong>Adjustment ID:</strong> {{ adjustment_details.adjustment_id }}</p>
+        <p><strong>Bill ID:</strong> {{ adjustment_details.bill_id }}</p>
+        <p><strong>Officer Name:</strong> {{ adjustment_details.officer_name }}</p>
+        <p><strong>Officer Designation:</strong> {{ adjustment_details.officer_designation }}</p>
+        <p><strong>Original Bill Amount:</strong> {{ adjustment_details.original_bill_amount }}</p>
+        <p><strong>Adjustment Amount:</strong> {{ adjustment_details.adjustment_amount }}</p>
+        <p><strong>Adjustment Reason:</strong> {{ adjustment_details.adjustment_reason }}</p>
+        <p><strong>Adjustment Date:</strong> {{ adjustment_details.adjustment_date }}</p>
+    </div>
+</body>
+</html>

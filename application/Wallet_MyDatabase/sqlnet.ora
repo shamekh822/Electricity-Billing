@@ -1,0 +1,2 @@
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="/home/ubuntu/Project3_files/application/Wallet_MyDatabase")))
+SSL_SERVER_DN_MATCH=yes

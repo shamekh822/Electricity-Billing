@@ -1,0 +1,12 @@
+mydatabase_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g6f6eb15bf55f0c_mydatabase_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+mydatabase_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g6f6eb15bf55f0c_mydatabase_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+mydatabase_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g6f6eb15bf55f0c_mydatabase_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+mydatabase_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g6f6eb15bf55f0c_mydatabase_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+mydatabase_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g6f6eb15bf55f0c_mydatabase_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
